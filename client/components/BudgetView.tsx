@@ -1,9 +1,9 @@
 // Done
 import React from 'react';
 import { Target } from 'lucide-react';
-import { Budget } from './types';
-import { EXPENSE_CATEGORIES } from './constants';
-import { formatCurrency } from './utils';
+import { Budget } from '../src/types';
+import { EXPENSE_CATEGORIES } from '../src/constants';
+import { formatCurrency } from '../src/utils/utils';
 
 interface BudgetViewProps {
   budgets: Budget[];

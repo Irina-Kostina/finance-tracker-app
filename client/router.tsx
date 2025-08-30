@@ -5,11 +5,11 @@ import {
 } from 'react-router'
 
 import App from './components/App'
-import Home from './components/Home'
+// import Home from './components/Home'
 
 const routes = createRoutesFromElements(
   <Route path="/" element={<App />}>
-    <Route index element={<Home />} />
+    {/* <Route index element={<Home />} /> */}
   </Route>
 )
 

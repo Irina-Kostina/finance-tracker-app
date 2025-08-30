@@ -1,8 +1,8 @@
 // Done
 import React from 'react';
 import { Calendar, Trash2 } from 'lucide-react';
-import { FinanceEntry, Account } from './types';
-import { ALL_CATEGORIES, MOODS } from './constants';
+import { FinanceEntry, Account } from '../src/types';
+import { ALL_CATEGORIES, MOODS } from '../src/constants';
 
 interface TransactionsListProps {
   entries: FinanceEntry[];

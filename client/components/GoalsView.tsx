@@ -1,8 +1,8 @@
 // Done
 import React from 'react';
 import { PiggyBank } from 'lucide-react';
-import { Goal } from './types';
-import { formatCurrency } from './utils';
+import { Goal } from '../src/types';
+import { formatCurrency } from '../src/utils/utils';
 
 interface GoalsViewProps {
   goals: Goal[];

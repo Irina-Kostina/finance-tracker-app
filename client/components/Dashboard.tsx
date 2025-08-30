@@ -1,8 +1,8 @@
 // Done
 import React from 'react';
 import { TrendingUp, TrendingDown, DollarSign, PiggyBank, Sparkles } from 'lucide-react';
-import { Account } from './types';
-import { formatCurrency, getTotalBalance } from './utils';
+import { Account } from '../src/types';
+import { formatCurrency, getTotalBalance } from '../src/utils/utils';
 
 interface MonthlyStats {
   income: number;
