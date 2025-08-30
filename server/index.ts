@@ -1,8 +1,7 @@
-import server from './server.ts'
+import app from './app'
 
-const port = process.env.PORT || 3000
+const PORT = Number(process.env.PORT || 3000)
 
-server.listen(port, function () {
-  // eslint-disable-next-line no-console
-  console.log('Listening on port', port)
+app.listen(PORT, () => {
+  console.log(`API running on http://localhost:${PORT}`)
 })
