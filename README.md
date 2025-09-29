@@ -60,7 +60,7 @@ personal-finance-tracker/
 │
 ├── .env                     # Environment variables
 └── README.md
-
+```
 ---
 
 ## Future Improvements  
